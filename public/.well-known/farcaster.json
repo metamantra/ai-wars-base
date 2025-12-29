@@ -8,7 +8,7 @@
     "version": "1",
     "name": "AI WARS",
     "iconUrl": "https://ai-wars-base.vercel.app/icon.png",
-    "homeUrl": "https://aiwars.vercel.app",
+    "homeUrl": "https://ai-wars-base.vercel.app",
     "imageUrl": "https://ai-wars-base.vercel.app/hero.png",
     "buttonTitle": "Launch Grid",
     "splashImageUrl": "https://ai-wars-base.vercel.app/splash.png",
