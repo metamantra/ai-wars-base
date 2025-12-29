@@ -1,4 +1,5 @@
 "use client";
+
 import FrameInit from './components/FrameInit';
 import { useState, useEffect } from 'react';
 import { useAIWars, ToastMessage } from './hooks/useAIWars';

@@ -7,12 +7,12 @@
   "frame": {
     "version": "1",
     "name": "AI WARS",
-    "iconUrl": "https://aiwars.vercel.app/icon.png",
+    "iconUrl": "https://ai-wars-base.vercel.app/icon.png",
     "homeUrl": "https://aiwars.vercel.app",
-    "imageUrl": "https://aiwars.vercel.app/hero.png",
+    "imageUrl": "https://ai-wars-base.vercel.app/hero.png",
     "buttonTitle": "Launch Grid",
-    "splashImageUrl": "https://aiwars.vercel.app/splash.png",
+    "splashImageUrl": "https://ai-wars-base.vercel.app/splash.png",
     "splashBackgroundColor": "#0f172a",
-    "webhookUrl": "https://aiwars.vercel.app/api/webhook"
+    "webhookUrl": "https://ai-wars-base.vercel.app/api/webhook"
   }
 }
