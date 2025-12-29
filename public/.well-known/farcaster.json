@@ -14,5 +14,12 @@
     "splashImageUrl": "https://ai-wars-base.vercel.app/splash.png",
     "splashBackgroundColor": "#0f172a",
     "webhookUrl": "https://ai-wars-base.vercel.app/api/webhook"
-  }
+  },
+  "primaryCategory": "gaming",
+  "tags": ["strategy", "defi", "base", "idle", "gaming"],
+  "description": "Capture the Neural Grid on Base. Build miners, defend your node, and earn ETH in this decentralized strategy game.",
+  "heroImageUrl": "https://ai-wars-base.vercel.app/hero.png",
+  "ogTitle": "AI WARS | Base Mainnet",
+  "ogDescription": "Capture the Neural Grid on Base.",
+  "ogImageUrl": "https://ai-wars-base.vercel.app/hero.png"
 }
