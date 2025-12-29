@@ -25,7 +25,7 @@ export const metadata: Metadata = {
         action: {
           type: "launch_frame",
           name: "AI WARS",
-          url: "https://aiwars.vercel.app", // REMINDER: Update this URL after deploy
+          url: "https://ai-wars-base.vercel.app", // REMINDER: Update this URL after deploy
           splashImageUrl: "https://ai-wars-base.vercel.app/splash.png",
           splashBackgroundColor: "#0f172a",
         },
