@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --color-base-blue: #0052ff;
+  --color-base-dark: #0a0b0d;
+  --color-tech-bg: #f0f4ff;
+  --color-glass-border: rgba(0, 82, 255, 0.1);
+  
+  /* Animations */
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-tech-bg);
+    color: var(--color-base-dark);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    /* Subtle circuit pattern background */
+    background-image: radial-gradient(#0052ff 0.5px, transparent 0.5px), radial-gradient(#0052ff 0.5px, var(--color-tech-bg) 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    background-attachment: fixed;
+  }
+}
+
+@layer components {
+  /* Tech Card: White with subtle blue border and shadow */
+  .card-tech {
+    @apply bg-white/90 backdrop-blur-md border border-blue-100 rounded-2xl p-4 shadow-sm relative overflow-hidden transition-all;
+  }
+  
+  /* The "Active" border glow */
+  .card-tech:hover {
+    @apply border-blue-300 shadow-md;
+  }
+
+  /* Primary Button: Gradient Blue */
+  .btn-tech-primary {
+    @apply w-full py-3 px-6 rounded-xl font-bold text-white bg-gradient-to-r from-blue-600 to-blue-500 shadow-lg shadow-blue-500/30 active:scale-95 transition-all flex items-center justify-center gap-2 uppercase tracking-wide text-xs;
+  }
+  
+  /* Secondary Button: Clean White/Gray */
+  .btn-tech-secondary {
+    @apply w-full py-3 px-6 rounded-xl font-bold text-gray-700 bg-white border border-gray-200 hover:bg-gray-50 active:scale-95 transition-all flex items-center justify-center gap-2 uppercase tracking-wide text-xs;
+  }
+
+  /* Danger Button: Red Gradient */
+  .btn-tech-danger {
+    @apply w-full py-3 px-6 rounded-xl font-bold text-white bg-gradient-to-r from-red-600 to-red-500 shadow-lg shadow-red-500/30 active:scale-95 transition-all flex items-center justify-center gap-2 uppercase tracking-wide text-xs;
+  }
+
+  /* Purple/Premium Button */
+  .btn-tech-premium {
+    @apply w-full py-3 px-6 rounded-xl font-bold text-white bg-gradient-to-r from-purple-600 to-purple-500 shadow-lg shadow-purple-500/30 active:scale-95 transition-all flex items-center justify-center gap-2 uppercase tracking-wide text-xs;
+  }
+
+  /* HUD Value Text */
+  .hud-value {
+    @apply font-mono font-bold tracking-tight;
+  }
+}
